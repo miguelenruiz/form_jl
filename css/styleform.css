@@ -1,0 +1,139 @@
+
+.wrap { max-width: 980px; margin: 10px auto 0; }
+#steps { margin: 80px 0 0 0 }
+.commands { overflow: hidden; margin-top: 30px; }
+.prev {float:left}
+.next, .submit {float:right}
+.error { color: #b33; }
+#progress { position: relative; height: 5px; background-color: #eee; margin-bottom: 20px; }
+#progress-complete { border: 0; position: absolute; height: 5px; min-width: 10px; background-color: #337ab7; transition: width .2s ease-in-out; }
+ 
+
+
+/* redes  */
+
+
+.share-post {
+    margin-bottom:10px;
+   }
+   .share-post ul {
+    padding:0;
+    margin:0;
+    text-align:center;
+   }
+   .share-post li{
+    list-style:none;
+    display:inline-block;
+    margin-right:2px;
+    padding:0;
+    font-weight:500;
+   }
+   .share-post li:first-child {
+    font-size:16px;
+    color:#22a1c4;
+   }
+   .share-post li a{
+    display:block;
+    text-align:center;
+   
+   }
+   
+   .share-post span{
+       display: none;
+   }
+   
+   .share-post li a i{
+    display:block;
+    color:#fff;
+    width:30px;
+    height:30px;
+    line-height:30px;
+    font-size:14px;
+    border-radius:30px;
+    font-weight:normal;
+    transition:all .3s;
+   }
+   .share-post{
+    width: 100%;
+     margin: 0 auto;
+    line-height:2px;
+    min-height:2px;
+    
+   }
+   .share-post li a i.fa.fa-facebook{
+    background:#3b5998;
+    border:1px solid transparent;
+   }
+   .share-post li a i.fa.fa-twitter{
+    background:#19bfe5;
+    border:1px solid transparent;
+   }
+   .share-post li a i.fa.fa-google-plus{
+    background:#d64136;
+    border:1px solid transparent;
+   }
+   .share-post li a i.fa.fa-linkedin{
+    background:#006699;
+    border:1px solid transparent;
+   }
+   .share-post li a i.fa.fa-pinterest{
+    background:#cb2027;
+    border:1px solid transparent;
+   }
+   .share-post li a i.fa.fa-facebook:hover{
+    background:#fff;
+    color:#3b5998;
+    border:1px solid #4666aa;
+   }
+   .share-post li a i.fa.fa-twitter:hover{
+    background:#fff;
+    color:#19bfe5;
+    border:1px solid #2acef4;
+   }
+   .share-post li a i.fa.fa-google-plus:hover{
+    background:#fff;color:#d64136;
+    border:1px solid #e95247;
+   }
+   .share-post li a i.fa.fa-linkedin:hover{
+    background:#fff;
+    color:#006699;
+    border:1px solid #017ab6;
+   }
+   .share-post li a i.fa.fa-pinterest:hover{
+    background:#fff;
+    color:#cb2027;
+    border:1px solid #e33239;
+   }
+   
+   .share-post li a i.far.fa-envelope{
+    background:#393638;
+    border:1px solid transparent;
+   }
+   
+   .share-post li a i.far.fa-envelope:hover{
+    background:#fff;
+    color:#393638;
+    border:1px solid #4666aa;
+   }
+   
+   .share-post li a i.fab.fa-blogger-b{
+    background:#F47E16;
+    border:1px solid transparent;
+   }
+   
+   .share-post li a i.fab.fa-blogger-b:hover{
+    background:#fff;
+    color:#F47E16;
+    border:1px solid #4666aa;
+   }
+   
+   .share-post li a i.fab.fa-whatsapp{
+    background:#13DE1B;
+    border:1px solid transparent;
+   }
+   
+   .share-post li a i.fab.fa-whatsapp:hover{
+    background:#fff;
+    color:#13DE1B;
+    border:1px solid #4666aa;
+   }
